@@ -1,0 +1,65 @@
+/* CSS Document */
+
+@charset "utf-8";
+
+body {
+    font-family: arial sans-serif;
+    font-size: 1em;
+    background-color: lightskyblue;
+    color: black;
+    margin: 2px;
+    padding: 2px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    background-image: linear-gradient(to right, green, yellow, blue);
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 5px auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead, tfoot {
+    background-color: rgb(151, 150, 150);
+    color: black;
+    font-weight: bolder;
+}
+
+.brasil {
+    background-image: linear-gradient(45deg, green, yellow, blue);
+    color: black;
+    font-weight: bolder;
+}
+
+.numero {
+    text-align: right;
+    color: darkred;
+}
+
+.percent {
+    text-align: right;
+    color: darkgreen;
+}
+
